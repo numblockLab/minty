@@ -1,0 +1,115 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+body,
+#header {
+  padding-right: 0 !important;
+}
+/* #root {
+  position: relative;
+} */
+.min-h-700 {
+  min-height: 700px;
+}
+#footer {
+  padding-bottom: 70px;
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+.login-box {
+  padding: 9% 0 0;
+  height: 100%;
+  background: #29abe2;
+  background: linear-gradient(to right, #29abe2, #f7931e);
+}
+.section-even-bg {
+  background: #f6f9ff;
+}
+
+/* #F7931E, #29ABE2 */
+.btn-primary {
+  background-color: #29abe2;
+}
+.navbar .getstarted,
+.btn-connect-wallet {
+  background: #f7931e;
+  border: 0;
+  color: white;
+}
+.navbar .getstarted:hover,
+.navbar .getstarted:focus,
+.btn-connect-wallet:hover,
+.btn-connect-wallet:focus {
+  background: #e19b4c !important;
+}
+
+.breadcrumbs {
+  /* background: #29abe2; */
+}
+.text-theme-1 {
+  color: #f7931e;
+}
+.text-theme-2 {
+  color: #29abe2;
+}
+
+.bg-theme-1 {
+  color: #f7931e;
+}
+.bg-theme-2 {
+  color: #29abe2;
+}
+
+.header .logo span,
+.navbar a,
+.navbar a:focus,
+.section-header p {
+  color: #29abe2;
+}
+
+.s-title {
+  font-weight: bold;
+}
+
+.box-even {
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+}
+.box-odd {
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+}
+.modal-nft-result {
+  min-height: 380px;
+}
+
+.box-even,
+.box-odd {
+  border-radius: 15px;
+  background: #fafbff;
+  box-shadow: 7px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.bg-mint {
+  background-image: url(/static/img/banner/commm2.png);
+  background-size: cover;
+}
+.bg-mint {
+  background-position: center;
+}
+
+.footer {
+  background: #000000;
+  color: white;
+}
+.footer .copyright,
+.footer .credits {
+  color: white;
+}
