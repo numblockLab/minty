@@ -79,17 +79,17 @@
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "react/jsx-closing-tag-location": 0,
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "mjs": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-    ],
+    // "import/extensions": [
+    //   "error",
+    //   "ignorePackages",
+    //   {
+    //     "js": "never",
+    //     "mjs": "never",
+    //     "jsx": "never",
+    //     "ts": "never",
+    //     "tsx": "never"
+    //   }
+    // ],
     "spaced-comment": "off",
     "semi": [0, "always"],
     // "prettier/prettier": [
@@ -103,7 +103,8 @@
     // ],
     "camelcase": "off",
     "class-methods-use-this": 0,
-    "import/order": "off"
+    "import/order": "off",
+    "import/extensions": "off"
     // "sort-imports": "error"
   }
 }
